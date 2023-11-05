@@ -9,3 +9,4 @@ Route::get('/', function () {
 });
 Route::resource('contacts', PhoneBookController::class);
 Route::resource('contacts2', PhoneBookController::class);
+Route::resource('contacts3', PhoneBookController::class);
