@@ -8,3 +8,4 @@ Route::get('/', function () {
     return view('contacts.index');
 });
 Route::resource('contacts', PhoneBookController::class);
+Route::resource('contacts2', PhoneBookController::class);
